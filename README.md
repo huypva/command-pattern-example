@@ -24,12 +24,8 @@ Make sure following software is installed on your PC
 ```shell
 $ ./mvnw clean package
 $ java -jar ./command-pattern/target/command-pattern-0.0.1-SNAPSHOT.jar
-```
-
-```shell
-Compare str1==str2: true
-Compare str3==str4: false
-Compare value str1.equals(str3): true
+14:16:04.440 [main] INFO io.github.huypva.commandpattern.Receiver -- Receiver execute1
+14:16:04.443 [main] INFO io.github.huypva.commandpattern.Receiver -- Receiver execute2
 ```
 
 ## Contribute
